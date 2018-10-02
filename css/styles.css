@@ -1,0 +1,36 @@
+*{
+  font-family:sans-serif;
+}
+body{
+  background-color:green;
+}
+
+h1{
+  font-family:Lucida Sans;
+  color:white;
+  font-weight:700;
+}
+h2{
+  font-family:Lucida Sans;
+  color:white;
+  font-weight:bold;
+}
+nav{
+  margin:0 auto;
+  padding:10px 0;
+  margin-right:0%;
+  max-width:960px;
+}
+nav>ul>li{
+  display:inline-block;
+}
+.container{
+  background-color:red;
+  justify-content:space-between;
+  width:100%;
+  height:50px;
+  top:0;
+  bottom:0;
+  right:0;
+  left:0;
+}
