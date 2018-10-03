@@ -2,7 +2,8 @@
   font-family:sans-serif;
 }
 body{
-  background-color:saddleBrown;
+  background-color:#8B4513;
+  border: 12px solid;
 }
 
 h1{
@@ -23,6 +24,7 @@ nav{
 }
 nav>ul>li{
   display:inline-block;
+  font-weight: bold;
 }
 .container{
   background-color:green;
@@ -39,8 +41,15 @@ nav>ul>li{
   margin:0 auto;
   padding-top:5%;
   width:400px;
-  color: yellow;
+  color: #00FFFF;
 }
 p{
-  color: yellow;
+  color: #FFD700;
+  font-family: inherit;
+}
+h4{
+  color:#FF1493;
+  font-weight: bold;
+  font-size: 130%;
+  text-align: center;
 }
